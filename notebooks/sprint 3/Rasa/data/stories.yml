@@ -1,0 +1,10 @@
+# version: '3.0'
+# stories:
+# - story: Como depositar path
+#   steps:
+#   - intent: Como depositar
+#   - action: utter_Como depositar
+# - story: Como fazer remessa path
+#   steps:
+#   - intent: Como fazer remessa
+#   - action: utter_Como fazer remessa

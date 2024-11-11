@@ -1,0 +1,34 @@
+# Configuration for Rasa NLU.
+# https://rasa.com/docs/rasa/nlu/components/
+# language: pt  # Definindo o idioma do assistente para português
+
+# pipeline:
+# - name: WhitespaceTokenizer    # Tokenizador que divide o texto em palavras usando espaços em branco
+# - name: RegexFeaturizer    # Utiliza expressões regulares para ajudar a extrair características
+# - name: LexicalSyntacticFeaturizer    # Extrai características sintáticas e léxicas
+# - name: CountVectorsFeaturizer    # Cria uma representação vetorial das palavras baseada em frequência
+# - name: DIETClassifier    # Modelo para classificação de intenção e extração de entidade
+#   epochs: 100
+#   constrain_similarities: true
+# - name: EntitySynonymMapper    # Mapeia sinônimos de entidades para um termo canônico
+# - name: ResponseSelector    # Seleciona a resposta baseada na intenção capturada
+#   epochs: 100
+#   constrain_similarities: true
+# - name: FallbackClassifier    # Classificador de fallback para respostas de baixa confiança
+#   threshold: 0.3
+#   ambiguity_threshold: 0.1
+
+# Configuration for Rasa Core.
+# https://rasa.com/docs/rasa/core/policies/
+# policies:
+# - name: MemoizationPolicy    # Política que lembra exatamente as conversas anteriores
+# - name: RulePolicy    # Política que permite definir regras para prever ações
+# - name: UnexpecTEDIntentPolicy    # Política para detectar intenções inesperadas
+#   max_history: 5
+#   epochs: 100
+# - name: TEDPolicy    # Modelo para prever a próxima ação com base no contexto
+#   max_history: 5
+#   epochs: 100
+#   constrain_similarities: true
+
+# assistant_id: 20240912-132113-mild-canteen

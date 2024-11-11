@@ -1,0 +1,27 @@
+# version: '3.0'
+# intents:
+#   - Como depositar
+#   - Como fazer remessa
+#   - Tempo de remessa
+#   - Pedido de envio via metodo "ByPhone"
+# responses:
+#   utter_Como depositar:
+#   - text: "Bom dia! Sim, o sr pode utilizar o cartão de débito internacional."
+#   - text: "Bom dia, No ATM do correio ou no verde do FamilyMart. Qualquer dúvida estamos à disposição. Obrigado."
+#   - text: "Bom dia,  Você poderá colocar o valor da remessa no saldo do seu aplicativo por meio do cartão de depósito ou então c>
+#   - text: "Boa noite! no próprio aplicativo, no Menu, consta o manual de transferência de conta a conta Menu > Instruções de Dep>
+#   - text: "O passo a passo está disponível no app: menu -> instruções de depósito -> cartão brastel remit -> ATM Compacto do Jap>
+#   - text: "Boa tarde! Por gentileza, certifique-se que a senhora está seguindo o passo-a-passo corretamente na hora de fazer o d>
+#   - text: "Bom dia!  Para quem efetua depositos acima de 100mil o novo cartao ira facilitar pois podera ser efetuado com um unic>
+
+#   utter_Como fazer remessa:
+#   - text: "Para se inscrever no serviço de remessa, por favor, preencha o formulário em nosso site."
+#   - text: "Na tela inicial, do lado do nome do beneficiário, clique em enviar dinheiro. Se pretende enviar o valor total do sald>
+#   - text: "Boa tarde, usando o aplicativo da Brastel Remit, você coloca o dinheiro no saldo do aplicativo feito no caixa eletrôn>
+#   - text: "Boa tarde, cconforme conversamos por telefone seu cadastro está ativo já pode enviar remessass. O passo a passo é : E>
+
+#   utter_Tempo de remessa:
+#   - text: "Via de regra, as remessas serão pagas via PIX em até 15 minutos."
+# session_config:
+#   session_expiration_time: 60
+#   carry_over_slots_to_new_session: true

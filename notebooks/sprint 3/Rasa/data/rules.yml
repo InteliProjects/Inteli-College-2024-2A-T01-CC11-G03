@@ -1,0 +1,10 @@
+# version: '3.1'
+# rules:
+# - rule: Respond to Como depositar
+#   steps:
+#   - intent: Como depositar
+#   - action: utter_Como depositar
+# - rule: Respond to Como fazer remessa
+#   steps:
+#   - intent: Como fazer remessa
+#   - action: utter_Como fazer remessa

@@ -1,0 +1,21 @@
+# version: '3.0'
+# nlu:
+# - intent: Como depositar
+#   examples: |
+#     - Boa dia.tudo bem?eu gostaria de saber sobre aquele caixa do family mart verde eh 24 horas?e se eu posso transferir a qualq>
+#     - Como faço para fazer transferência do banco do correio, através do app? Não tem campo para colocar o código
+#     - Como faço para fazer depósito Já fiz o cadastro na Brastel remit
+#     - Poderia me informar se e possivel realizar deposito nos caixas eletronico de conveniences
+#     - Tem como mandar dinheiro sem o cartão do correio?
+#     - Boa noite Sou cliente do serviço de vossa empresa Utilizo o app para efetuar as remessas para minhas contas cadastradas no>
+#     - Boa tarde Gostaria de receber o passo a passo de como inserir dinheiro no cartão laranja da Brastel Pelo kombini
+#     - fui fazer o depósito no caixa eletrônico do correio, so que dizia que não tava para fazer transferência.
+#     - Recebi um cartão para remessa da Brastel A taxa de envio é 440 tens Yens? O uso do cartão e o mesmo sistema do outro cartã>
+# - intent: Como fazer remessa
+#   examples: |
+#     - Como enviar dinheiro do Japão?
+#     - Como enviar dinheiro do Brasil para o exterior?
+#     - Preciso enviar dinheiro para a China, como proceder?
+#     - Assim que o saldo for inserido no aplicativo,como faço para transferir para o Brasil?
+#     - Olá boa tarde Preciso fazer uma remessa mas não me lembro mais como faço ?
+#     - Boa tarde como faço para fazer uma remessa ???
